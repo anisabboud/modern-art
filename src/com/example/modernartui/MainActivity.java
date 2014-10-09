@@ -242,7 +242,10 @@ public class MainActivity extends ActionBarActivity {
 			case R.id.share_painting:
 				if (storePainting(mMainLayout)) {
 					Intent share = new Intent(Intent.ACTION_SEND);
-					share.setType("image/jpeg");
+					share.setType("image/*");
+					share.putExtra(Intent.EXTRA_TITLE, R.string.share_text);
+					share.putExtra(Intent.EXTRA_TEXT, R.string.share_text);
+					share.putExtra(Intent.EXTRA_SUBJECT, R.string.share_text);
 					share.putExtra(Intent.EXTRA_STREAM, Uri.parse(mPath));
 					startActivity(Intent.createChooser(share, "Share painting!"));
 				}

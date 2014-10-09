@@ -1251,12 +1251,13 @@ containing a value of this type.
         public static final int app_name=0x7f0a000d;
         public static final int cool_features=0x7f0a000f;
         public static final int cool_features_list=0x7f0a0010;
-        public static final int information=0x7f0a0014;
+        public static final int information=0x7f0a0015;
         public static final int more_info=0x7f0a000e;
         public static final int new_painting=0x7f0a0012;
-        public static final int not_now=0x7f0a0016;
+        public static final int not_now=0x7f0a0017;
         public static final int share_painting=0x7f0a0013;
-        public static final int visit_moma=0x7f0a0015;
+        public static final int share_text=0x7f0a0014;
+        public static final int visit_moma=0x7f0a0016;
         public static final int wow=0x7f0a0011;
     }
     public static final class style {
