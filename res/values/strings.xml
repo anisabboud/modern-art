@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Modern Art UI</string>
+    <string name="more_info">More information</string>
+    <string name="cool_features">Cool features!</string>
+    <string name="cool_features_list">Other than the requirements, this app has 6 awesome features:
+        \n\n1. Layout is different every time!
+        \n\n2. Colors are random!
+        \n\n3. "Refresh" button to generate a new painting.
+        \n\n4. Share button!
+        \n\n5. Click a rectangle to change color.
+        \n\n6. Long-click a rectangle to pick your own color!</string>
+    <string name="wow">Wow!</string>
+    <string name="new_painting">New painting!</string>
+    <string name="share_painting">Share painting!</string>
+    <string name="information">Inspired by the works of artists such as Piet Mondrian and Ben Nickolson\n\nClick below to learn more!</string>
+    <string name="visit_moma">Visit MOMA</string>
+    <string name="not_now">Not Now</string>
+    
+    <item type="id" name="COLOR1" />
+    <item type="id" name="COLOR2" />
+    <item type="id" name="MIXED_COLOR" />
+</resources>
